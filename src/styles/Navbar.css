@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.nav-logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-list{
+    width: 40vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.nav-item{
+    padding: 20px 0;
+    cursor: pointer;
+}
+.nav-item:hover{
+    font-weight: bold;
+}
+
